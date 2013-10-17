@@ -1,14 +1,15 @@
-## Couchsurfing International
+## Couchsurfing 
 
 |  |  |
 |:-------------------------------------|-------------------------------------:|
-| App name                             |      Couchsurfing 2.0 - iOS App      |
-| Version                              |      2.0                             |
+| App name                             |      TBD                             |
+| Version                              |      TBD                             |
 | Date of submission                   |      TBD 		                        |
 
 This checklist confirms that all major areas of testing have been completed prior to a build Release to the App Store.
 
-This version has been adjusted for the requirements of Couchsurfing 2.0 (in particular, an app baseline of iOS 6.1). 
+This version has been adjusted for the requirements of Couchsurfing (in particular, an app baseline of iOS 6.1) and 
+should be applicable for any app built for the company. 
 
 --
 
@@ -20,8 +21,8 @@ Test all the data downloading sections of the app by trying them on the appropri
 | Wifi | | | |
 | Edge | | | |
 | GPRS | | | |
-| No Network | | | |
-| Intermittent Network (use Charles to Simulate) | | | |
+| No Network (Airplane Mode) | | | |
+| Intermittent Network (use Charles to simulate) | | | |
 | Server unreachable - timeout | | | |
 | Resumed connect - multi-part File Transfer | | | |
 
@@ -37,6 +38,17 @@ Change device’s settings then load the app. Check that dates appear correctly,
 | **Regions** 
 | United States | | |
 | Australia | | |
+| UK |||
+| France | | |
+| Netherlands | | |
+| Spain | | |
+| Italy | | |
+| China | | |
+| Poland | | |
+| Brazil | | |
+| Russia | | |
+| Turkey | | |
+| Korea | | |
 | | | | |
 | **Languages**
 | English | | |
@@ -47,11 +59,34 @@ Change device’s settings then load the app. Check that dates appear correctly,
 | Chinese (Mandarin) | | |
 | Polish | | |
 | Portuguese | | |
-| English | | |
+| Korean | | |
 | Russian | | |
 | Turkish | | |
+| | | | |
 | Timezones  | | | |
 | Daylight Savings Time | | | |
+
+--
+
+###Translation
+Confirm that translation testing has been completed by a native speaker for each language supported in the app. 
+
+||Included in App| Confirmed as Appropriate|
+|:---|:---:|:---:|
+| **Languages**
+| English | | |
+| French | | |
+| Dutch | | |
+| Espanol | | |
+| Italiano | | |
+| Chinese (Mandarin) | | |
+| Polish | | |
+| Portuguese | | |
+| Korean | | |
+| Russian | | |
+| Turkish | | |
+
+
 
 --
 
@@ -61,9 +96,10 @@ Run the application through navigations using different devices with different i
 | Device | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
 | iPhone / iPod touch running iOS 6.1.x | | | |
-| iPhone / iPod touch running iOS 7.0 | | | |
+| iPhone / iPod touch running iOS 7.0.x | | | |
 | Retina iPhone display | | | |
 | Non-retina iPhone display | | | |
+| | | | |
 | Retina iPad display | | | |
 | Non-retina iPad display | | | |
 | iPad mini display | | | |
@@ -120,7 +156,13 @@ Streaming video should have been checked in the network tests.
 | Logging | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
 | Logging events to live server | | | |
-| Logging errors (interact with other tests?) | | | |
+| Logging errors | | | |
+
+###Analytics & Third Party Services
+| Output confirmed as appropriate for Production | N/A | NO | YES |
+|:---|:---:|:---:|:---:|
+| Flurry |  |  |  |
+| Crashlytics|  |  |  |
 
 --
 
@@ -146,7 +188,6 @@ Test each major view in the app.
 | Validation error in user input | | | |
 | Validation error in web server input | | | |
 | Test migrations with valid and invalid data files | | | |
-| Rollback | | | |
 
 --
 
@@ -157,7 +198,6 @@ Test each major view in the app.
 | Fresh install | | | |
 | Upgrade from previous live version | | | |
 | Upgrade from older live version | | | |
-| Rollback | Not Applicable |
 
 --
 
@@ -196,6 +236,17 @@ All third party services should use production API key and the new app version s
 | Tested in Ad Hoc mode | | | |
 | Version number upgraded | | | |
 | Bundle identifier correct for release | | | |
+| Bundle identifier correct for release | | | |
+
+
+###iTunes Connect
+
+| Misc | N/A | NO | YES |
+|:---|:---:|:---:|:---:|
+| Artwork and marketing copy organized for iTunes Connect ||||
+| Version placeholder setup (set to manual release) | |||
+| Test Submission completed | | | |
+
 
 --
 <br><br>

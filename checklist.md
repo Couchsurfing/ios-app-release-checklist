@@ -1,18 +1,14 @@
-## App Development Company Limited
-
-*RELEASE AUTHORISATION FORM v1.0*
+## Couchsurfing International
 
 |  |  |
 |:-------------------------------------|-------------------------------------:|
-| App name                             |      *insert content*                |
-| Version                              |      *insert content*                |
-| Date of submission                   |      *insert content*           |
+| App name                             |      Couchsurfing 2.0 - iOS App      |
+| Version                              |      2.0                             |
+| Date of submission                   |      TBD 		              |
 
-This form is to document the testing that has been done on each app
-version before submitting to the App Store. For each item, indicate *Yes*
-if the testing has been done, *Not Applicable* if the testing does not
-apply (eg testing audio for an app that doesn’t play any), or *No* if the
-testing has not been done for another reason.
+This checklist confirms that all major areas of testing have been completed prior to a build Release to the App Store.
+
+This version has been adjusted for the requirements of Couchsurfing 2.0 (in particular, an app baseline of iOS 6.1). 
 
 --
 
@@ -49,19 +45,10 @@ Run the application through navigations using different devices with different i
 
 | Device | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
-| iPhone / iPod touch running iOS 5.0 | | | |
-| iPhone / iPod touch running iOS 5.1.1 | | | |
-| iPhone / iPod touch running iOS 6.0 | | | |
-| iPhone / iPod touch running iOS 6.1.3 | | | |
+| iPhone / iPod touch running iOS 6.1.x | | | |
 | iPhone / iPod touch running iOS 7.0 | | | |
 | Retina iPhone display | | | |
 | Non-retina iPhone display | | | |
-| iPad 1 running iOS 5.0 | | | |
-| iPad 1 running iOS 5.0 | | | |
-| iPhone / iPod touch running iOS 5.1.1 | | | |
-| iPad running iOS 6.0 | | | |
-| iPad running iOS 6.1.3 | | | |
-| iPad running iOS 7.0 | | | |
 | Retina iPad display | | | |
 | Non-retina iPad display | | | |
 | iPad mini display | | | |
@@ -110,19 +97,6 @@ Streaming video should have been checked in the network tests.
 | No results returned (e.g. too far from any searchable points of interest)  | | | |
 | Location services turned off | | | |
 | Location services disabled for this app | | | |
-
---
-
-###Camera / Video
-If app takes pictures or video clips, perform the following checks. For streaming video, make sure the checks in the network section above have also been done.
-
-| Camera / Video | N/A | NO | YES |
-|:---|:---:|:---:|:---:|
-| Primary camera photo taken | | | |
-| Primary camera video captured | | | |
-| Secondary (user facing) camera taken | | | |
-| Secondary (user facing) video captured | | | |
-| Video recording paused on received phone call | | | |
 
 --
 
@@ -180,7 +154,6 @@ Test each major view in the app.
 | Text selection (including disabled when appropriate) | | | |
 | Copy / Paste | | | |
 | Editing when keyboard is hidden | | | |
-| Dictionary / Suggested Word hover | | | |
 
 --
 
@@ -204,7 +177,6 @@ All third party services should use production API key and the new app version s
 
 | Misc | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
-| Bluetooth | | | |
 | Motion | | | |
 | Tested in Ad Hoc mode | | | |
 | Version number upgraded | | | |
@@ -212,8 +184,3 @@ All third party services should use production API key and the new app version s
 
 --
 <br><br>
-
-Sign-off: __________________________________________  
-
-<br><br><br>
-Project role: _______________________________________  

@@ -236,14 +236,16 @@ All third party services should use production API key and the new app version s
 | Tested in Ad Hoc mode | | | |
 | Version number upgraded | | | |
 | Bundle identifier correct for release | | | |
-| Bundle identifier correct for release | | | |
+
 
 
 ###iTunes Connect
 
 | Misc | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
-| Artwork and marketing copy organized for iTunes Connect ||||
+| Artwork organized for iTunes Connect ||||
+| Marketing copy organized for iTunes Connect ||||
+| Search terms organized for iTunes Connect ||||
 | Version placeholder setup (set to manual release) | |||
 | Test Submission completed | | | |
 

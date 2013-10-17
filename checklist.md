@@ -4,7 +4,7 @@
 |:-------------------------------------|-------------------------------------:|
 | App name                             |      Couchsurfing 2.0 - iOS App      |
 | Version                              |      2.0                             |
-| Date of submission                   |      TBD 		              |
+| Date of submission                   |      TBD 		                        |
 
 This checklist confirms that all major areas of testing have been completed prior to a build Release to the App Store.
 
@@ -21,9 +21,9 @@ Test all the data downloading sections of the app by trying them on the appropri
 | Edge | | | |
 | GPRS | | | |
 | No Network | | | |
-| Break in Network - use Charles | | | |
+| Intermittent Network (use Charles to Simulate) | | | |
 | Server unreachable - timeout | | | |
-| Resumed connect - streaming only | | | |
+| Resumed connect - multi-part File Transfer | | | |
 
 --
 
@@ -33,8 +33,23 @@ Change device’s settings then load the app. Check that dates appear correctly,
 | Locale | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
 | 12 and 24 hour clocks | | | |
-| Regions: **fork and add regions for you** | | | |
-| Languages: **fork and add languages for you** | | | |
+| | | | | 
+| **Regions** 
+| United States | | |
+| Australia | | |
+| | | | |
+| **Languages**
+| English | | |
+| French | | |
+| Dutch | | |
+| Espanol | | |
+| Italiano | | |
+| Chinese (Mandarin) | | |
+| Polish | | |
+| Portuguese | | |
+| English | | |
+| Russian | | |
+| Turkish | | |
 | Timezones  | | | |
 | Daylight Savings Time | | | |
 
@@ -142,7 +157,7 @@ Test each major view in the app.
 | Fresh install | | | |
 | Upgrade from previous live version | | | |
 | Upgrade from older live version | | | |
-| Rollback | | | |
+| Rollback | Not Applicable |
 
 --
 

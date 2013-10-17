@@ -1,6 +1,6 @@
 ## Couchsurfing 
 
-|Overview|
+|Overview Info|Details|
 |:-------------------------------------|-------------------------------------:|
 | App name                             |      TBD                             |
 | Version                              |      TBD                             |
@@ -153,14 +153,10 @@ Streaming video should have been checked in the network tests.
 
 ###Logging
 
-| Logging | N/A | NO | YES |
+| Confirmed as appropriate | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
 | Logging events to live server | | | |
 | Logging errors | | | |
-
-###Analytics & Third Party Services
-| Output confirmed as appropriate for Production | N/A | NO | YES |
-|:---|:---:|:---:|:---:|
 | Flurry |  |  |  |
 | Crashlytics|  |  |  |
 

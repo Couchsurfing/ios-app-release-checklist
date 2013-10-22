@@ -242,9 +242,10 @@ All third party services should use production API key and the new app version s
 | Artwork organized for iTunes Connect ||||
 | Marketing copy organized for iTunes Connect ||||
 | Search terms organized for iTunes Connect ||||
+| Version Release Notes finalized ||||
+| Preview images finalized (not editable after submission) ||||
 | Version placeholder setup (set to manual release) | |||
 | Test Submission completed | | | |
-
 
 --
 <br><br>

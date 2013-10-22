@@ -1,11 +1,3 @@
-Pre-release App checklist. 
+**Couchsurfing Pre-release iOS App Checklist**
 
-Original credit: @daveaddey who published his app-building company's checklist at http://daveaddey.com/?p=1273 
-
-Suggestion: https://twitter.com/daveaddey/status/381709795234807808
-
-Fork this and add your own stuff to it - open a pull request for things that you do regularly so that others can have the benefit of your experience. Some items in the checklist refer to checking for regions and languages that will differ depending on the app audience, you'll need to add in your own reqs there.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/oisin/app-release-checklist/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+Intended to serve as a sanity check prior to releasing a build to the store. As Production bugs are found and fixed, this list should be updated to help prevent regression in future releases. 

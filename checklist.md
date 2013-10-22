@@ -1,18 +1,15 @@
-## App Development Company Limited
+## Couchsurfing 
 
-*RELEASE AUTHORISATION FORM v1.0*
-
-|  |  |
+|Overview Info|Details|
 |:-------------------------------------|-------------------------------------:|
-| App name                             |      *insert content*                |
-| Version                              |      *insert content*                |
-| Date of submission                   |      *insert content*           |
+| App name                             |      TBD                             |
+| Version                              |      TBD                             |
+| Date of submission                   |      TBD 		                        |
 
-This form is to document the testing that has been done on each app
-version before submitting to the App Store. For each item, indicate *Yes*
-if the testing has been done, *Not Applicable* if the testing does not
-apply (eg testing audio for an app that doesn’t play any), or *No* if the
-testing has not been done for another reason.
+This checklist confirms that all major areas of testing have been completed prior to a build Release to the App Store.
+
+This version has been adjusted for the requirements of Couchsurfing (in particular, an app baseline of iOS 6.1) and 
+should be applicable for any app built for the company. 
 
 --
 
@@ -24,10 +21,10 @@ Test all the data downloading sections of the app by trying them on the appropri
 | Wifi | | | |
 | Edge | | | |
 | GPRS | | | |
-| No Network | | | |
-| Break in Network - use Charles | | | |
+| No Network (Airplane Mode) | | | |
+| Intermittent Network (use Charles to simulate) | | | |
 | Server unreachable - timeout | | | |
-| Resumed connect - streaming only | | | |
+| Resumed connect - multi-part File Transfer | | | |
 
 --
 
@@ -37,10 +34,59 @@ Change device’s settings then load the app. Check that dates appear correctly,
 | Locale | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
 | 12 and 24 hour clocks | | | |
-| Regions: **fork and add regions for you** | | | |
-| Languages: **fork and add languages for you** | | | |
+| | | | | 
+| **Regions** 
+| United States | | |
+| Australia | | |
+| UK |||
+| France | | |
+| Netherlands | | |
+| Spain | | |
+| Italy | | |
+| China | | |
+| Poland | | |
+| Brazil | | |
+| Russia | | |
+| Turkey | | |
+| Korea | | |
+| | | | |
+| **Languages**
+| English | | |
+| French | | |
+| Dutch | | |
+| Espanol | | |
+| Italiano | | |
+| Chinese (Mandarin) | | |
+| Polish | | |
+| Portuguese | | |
+| Korean | | |
+| Russian | | |
+| Turkish | | |
+| | | | |
 | Timezones  | | | |
 | Daylight Savings Time | | | |
+
+--
+
+###Translation
+Confirm that translation testing has been completed by a native speaker for each language supported in the app. 
+
+||Included in App| Confirmed as Appropriate|
+|:---|:---:|:---:|
+| **Languages**
+| English | | |
+| French | | |
+| Dutch | | |
+| Espanol | | |
+| Italiano | | |
+| Chinese (Mandarin) | | |
+| Polish | | |
+| Portuguese | | |
+| Korean | | |
+| Russian | | |
+| Turkish | | |
+
+
 
 --
 
@@ -49,19 +95,11 @@ Run the application through navigations using different devices with different i
 
 | Device | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
-| iPhone / iPod touch running iOS 5.0 | | | |
-| iPhone / iPod touch running iOS 5.1.1 | | | |
-| iPhone / iPod touch running iOS 6.0 | | | |
-| iPhone / iPod touch running iOS 6.1.3 | | | |
-| iPhone / iPod touch running iOS 7.0 | | | |
+| iPhone / iPod touch running iOS 6.1.x | | | |
+| iPhone / iPod touch running iOS 7.0.x | | | |
 | Retina iPhone display | | | |
 | Non-retina iPhone display | | | |
-| iPad 1 running iOS 5.0 | | | |
-| iPad 1 running iOS 5.0 | | | |
-| iPhone / iPod touch running iOS 5.1.1 | | | |
-| iPad running iOS 6.0 | | | |
-| iPad running iOS 6.1.3 | | | |
-| iPad running iOS 7.0 | | | |
+| | | | |
 | Retina iPad display | | | |
 | Non-retina iPad display | | | |
 | iPad mini display | | | |
@@ -113,25 +151,14 @@ Streaming video should have been checked in the network tests.
 
 --
 
-###Camera / Video
-If app takes pictures or video clips, perform the following checks. For streaming video, make sure the checks in the network section above have also been done.
-
-| Camera / Video | N/A | NO | YES |
-|:---|:---:|:---:|:---:|
-| Primary camera photo taken | | | |
-| Primary camera video captured | | | |
-| Secondary (user facing) camera taken | | | |
-| Secondary (user facing) video captured | | | |
-| Video recording paused on received phone call | | | |
-
---
-
 ###Logging
 
-| Logging | N/A | NO | YES |
+| Confirmed as appropriate | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
 | Logging events to live server | | | |
-| Logging errors (interact with other tests?) | | | |
+| Logging errors | | | |
+| Flurry |  |  |  |
+| Crashlytics|  |  |  |
 
 --
 
@@ -157,7 +184,6 @@ Test each major view in the app.
 | Validation error in user input | | | |
 | Validation error in web server input | | | |
 | Test migrations with valid and invalid data files | | | |
-| Rollback | | | |
 
 --
 
@@ -168,7 +194,6 @@ Test each major view in the app.
 | Fresh install | | | |
 | Upgrade from previous live version | | | |
 | Upgrade from older live version | | | |
-| Rollback | | | |
 
 --
 
@@ -180,7 +205,6 @@ Test each major view in the app.
 | Text selection (including disabled when appropriate) | | | |
 | Copy / Paste | | | |
 | Editing when keyboard is hidden | | | |
-| Dictionary / Suggested Word hover | | | |
 
 --
 
@@ -204,16 +228,24 @@ All third party services should use production API key and the new app version s
 
 | Misc | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
-| Bluetooth | | | |
 | Motion | | | |
 | Tested in Ad Hoc mode | | | |
 | Version number upgraded | | | |
 | Bundle identifier correct for release | | | |
 
+
+
+###iTunes Connect
+
+| Misc | N/A | NO | YES |
+|:---|:---:|:---:|:---:|
+| Artwork organized for iTunes Connect ||||
+| Marketing copy organized for iTunes Connect ||||
+| Search terms organized for iTunes Connect ||||
+| Version Release Notes finalized ||||
+| Preview images finalized (not editable after submission) ||||
+| Version placeholder setup (set to manual release) | |||
+| Test Submission completed | | | |
+
 --
 <br><br>
-
-Sign-off: __________________________________________  
-
-<br><br><br>
-Project role: _______________________________________  
